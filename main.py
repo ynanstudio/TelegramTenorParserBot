@@ -4,7 +4,8 @@ import asyncio
 from aiogram import types, Bot, Dispatcher
 from aiogram.filters import Command
 import requests,json
-
+import os
+from dotenv import load_dotenv
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TENOR_TOKEN = os.getenv('TELEGRAM_TOKEN')
